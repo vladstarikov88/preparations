@@ -1,18 +1,40 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <v-layout row wrap>
+      <preparation-form></preparation-form>
+    </v-layout>
+    <v-layout row wrap justify-space-around fill-height>
+      <v-flex xs4 grow pa-3
+        v-for="preparation in preparations"
+        :key="preparation.id"
+      >
+        <custom-card
+          :preparation="preparation"
+        />
+      </v-flex>
+    </v-layout>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import preparations from '@/assets/preparations'
+import PreparationForm from '@/components/PreparationForm'
+import CustomCard from '@/components/CustomCard'
 export default {
   name: 'home',
+  data() {
+    return {
+      preparations: []
+    }
+  },
   components: {
-    HelloWorld
+    CustomCard,
+    PreparationForm
+  },
+  mounted() {
+    this.preparations = preparations;
+
+    console.log(this.preparations)
   }
 }
 </script>
