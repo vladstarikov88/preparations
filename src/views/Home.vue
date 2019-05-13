@@ -5,8 +5,8 @@
         :types="filteredTypes"
         :amounts="filteredAmounts"
 
-        @change-type="changeType"
-        @change-amount="changeAmount"
+        @set-type="setType"
+        @set-amount="setAmount"
       />
     </v-layout>
     <v-layout row wrap justify-space-around fill-height>
@@ -36,6 +36,8 @@ export default {
       filteredPreparations: [],
       filteredTypes: [],
       filteredAmounts: [],
+      type: '',
+      amount: '',
     }
   },
   components: {
@@ -43,21 +45,27 @@ export default {
     PreparationForm
   },
   methods: {
-    changeType(val) {
-      console.log(val)
+    setType(type) {
 
-      val === 'all' ?
-        this.filteredPreparations = this.preparations :
-        this.filteredPreparations = this.preparations.filter(el => {
-          return el.name.indexOf(val) > -1 ? true : false
-        })
+      //сука тупой говнокод вонючий, какое же говно я пишу
+      this.type = type;
+
+      type === 'all'
+      ? this.filteredPreparations = this.preparations
+          .filter(el => el.amount.indexOf(this.amount) > -1 ? true : false)
+      : this.filteredPreparations = this.preparations
+          .filter(el => el.name.indexOf(this.type) > -1 ? true : false)
+          .filter(el => el.amount.indexOf(this.amount) > -1 ? true : false)
     },
-    changeAmount(val) {
-      val === 'all' ?
-        this.filteredPreparations = this.preparations :
-        this.filteredPreparations = this.preparations.filter(el => {
-          return el.amount.indexOf(val) > -1 ? true : false
-        })
+    setAmount(amount) {
+      this.amount = amount;
+
+      amount === 'all'
+      ? this.filteredPreparations = this.preparations
+          .filter(el => el.name.indexOf(this.type) > -1 ? true : false)
+      : this.filteredPreparations = this.preparations
+          .filter(el => el.amount.indexOf(this.amount) > -1 ? true : false)
+          .filter(el => el.name.indexOf(this.type) > -1 ? true : false)
     },
   },
   mounted() {
@@ -71,12 +79,12 @@ export default {
     this.filteredTypes = filteredItems(types)
 
     const amounts = this.preparations.map(el => {
-      return "" + parseInt(el.amount.replace(/\D+/g,""));
+      return parseInt(el.amount.replace(/\D+/g,""));
     })
     this.filteredAmounts = filteredItems(amounts)
-
-
-    console.log(this.preparations)
+    this.filteredAmounts = this.filteredAmounts
+      .sort((a, b) => a - b)
+      .map(el => "" + el)
   }
 }
 </script>

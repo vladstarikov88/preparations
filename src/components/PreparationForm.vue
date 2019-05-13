@@ -46,10 +46,10 @@ export default {
   },
   watch: {
     'radio_types'(val) {
-      this.$emit('change-type', val)
+      this.$emit('set-type', val)
     },
     'radio_amount'(val) {
-      this.$emit('change-amount', val)
+      this.$emit('set-amount', val)
     }
   }
 }

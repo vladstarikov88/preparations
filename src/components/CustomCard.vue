@@ -39,7 +39,7 @@ export default {
     position: absolute;
     top: 0;
     right: 0;
-    color: rgba(50, 50, 50, .2);
+    color: rgba(100, 100, 100, .2);
     font-size: 1.8rem;
 
     user-select: none;
