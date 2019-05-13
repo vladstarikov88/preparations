@@ -32,25 +32,25 @@ export default {
 <style lang="scss">
 .title{
   position: relative;
-  min-height: 4rem;
+  min-height: 7rem;
   width: 100%;
 
   .number{
     position: absolute;
-    top: -.5rem;
-    right: -.5rem;
+    top: 0;
+    right: 0;
     color: rgba(50, 50, 50, .2);
-    font-size: 2rem;
+    font-size: 1.8rem;
 
     user-select: none;
     .value {
-      font-size: 2.5rem;
+      font-size: 3rem;
       font-weight: bold;
     }
   }
 }
 
 .card {
-  min-height: 15rem;
+  min-height: 18rem;
 }
 </style>

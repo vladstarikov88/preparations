@@ -1,7 +1,7 @@
 const preparations = [
   {
     id: "1",
-    name: "Ксикаин (Лидокаин) - ампулы",
+    name: "Ксикаин (Лидокаин) – ампулы",
     lat_name: "Sol. Xycaini 2% - 2 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. Для проводниковой анестезии.",
@@ -233,7 +233,7 @@ const preparations = [
   },
   {
     id: "30",
-    name: "Промедол – ампул",
+    name: "Промедол – ампулы",
     lat_name: "Rp.: Sol. Promedoli 1%-1ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. подкожно.",
@@ -320,7 +320,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "41",
     name: "",
     lat_name: "",
     amount: '',
@@ -328,7 +328,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "42",
     name: "",
     lat_name: "",
     amount: '',
@@ -336,7 +336,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "43",
     name: "",
     lat_name: "",
     amount: '',
@@ -344,7 +344,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "44",
     name: "",
     lat_name: "",
     amount: '',
@@ -352,7 +352,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "45",
     name: "",
     lat_name: "",
     amount: '',
@@ -360,7 +360,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "46",
     name: "",
     lat_name: "",
     amount: '',
@@ -368,7 +368,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "47",
     name: "",
     lat_name: "",
     amount: '',
@@ -376,7 +376,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "48",
     name: "",
     lat_name: "",
     amount: '',
@@ -384,7 +384,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "49",
     name: "",
     lat_name: "",
     amount: '',
@@ -392,7 +392,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "50",
     name: "",
     lat_name: "",
     amount: '',
@@ -400,7 +400,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "51",
     name: "",
     lat_name: "",
     amount: '',
@@ -408,7 +408,7 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "52",
     name: "",
     lat_name: "",
     amount: '',
@@ -416,7 +416,15 @@ const preparations = [
     additional: "",
   },
   {
-    id: "",
+    id: "53",
+    name: "",
+    lat_name: "",
+    amount: '',
+    portion: "",
+    additional: "",
+  },
+  {
+    id: "54",
     name: "",
     lat_name: "",
     amount: '',
