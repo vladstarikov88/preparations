@@ -3,15 +3,15 @@
     <v-card-title>
       <div class="title">
         <h3 class="headline">{{ preparation.name }}</h3>
+        <h4 class="lat-name">{{ preparation.lat_name }}</h4>
         <p class="number">
           <span class="id">#</span>
           <span class="value">{{ preparation.id }}</span>
         </p>
       </div>
       <div>
-        <h4>{{ preparation.lat_name }}</h4>
-        <p>{{ preparation.amount }}</p>
-        <p>{{ preparation.portion }}</p>
+        <p class="additional-info">{{ preparation.amount }}</p>
+        <p class="additional-info">{{ preparation.portion }}</p>
       </div>
     </v-card-title>
     <!-- <v-card-actions>
@@ -32,8 +32,12 @@ export default {
 <style lang="scss">
 .title{
   position: relative;
-  min-height: 7rem;
+  min-height: 9rem;
   width: 100%;
+
+  .headline{
+    margin-bottom: 1rem;
+  }
 
   .number{
     position: absolute;
@@ -50,7 +54,11 @@ export default {
   }
 }
 
+.additional-info{
+  font-size: 1.2rem;
+}
+
 .card {
-  min-height: 18rem;
+  height: 100%;
 }
 </style>

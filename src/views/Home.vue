@@ -10,14 +10,24 @@
       />
     </v-layout>
     <v-layout row wrap justify-space-around fill-height>
-      <v-flex xs6 md4 lg3 grow pa-3
-        v-for="preparation in filteredPreparations"
-        :key="preparation.id"
-      >
-        <custom-card
-          :preparation="preparation"
-        />
-      </v-flex>
+      
+      <template v-if="filteredPreparations && filteredPreparations.length">
+        <v-flex xs6 md4 lg3 grow pa-3
+          v-for="preparation in filteredPreparations"
+          :key="preparation.id"
+        >
+          <custom-card
+            :preparation="preparation"
+          />
+        </v-flex>
+      </template>
+
+      <template v-else>
+        <v-flex xs12>
+          <not-found />
+        </v-flex>
+      </template>
+
     </v-layout>
   </div>
 </template>
@@ -26,6 +36,7 @@
 import preparations from '@/assets/preparations'
 import PreparationForm from '@/components/PreparationForm'
 import CustomCard from '@/components/CustomCard'
+import NotFound from '@/components/NotFound'
 
 import { filteredItems } from '@/assets/helpers'
 export default {
@@ -42,7 +53,8 @@ export default {
   },
   components: {
     CustomCard,
-    PreparationForm
+    PreparationForm,
+    NotFound
   },
   methods: {
     filterPreps(type = this.type, amount = this.amount) {
