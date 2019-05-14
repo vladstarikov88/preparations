@@ -2,8 +2,8 @@
   <div class="home">
     <v-layout row wrap>
       <preparation-form 
-        :types="filteredTypes"
-        :amounts="filteredAmounts"
+        :types="types"
+        :amounts="amounts"
 
         @set-type="setType"
         @set-amount="setAmount"
@@ -34,10 +34,10 @@ export default {
     return {
       preparations: [],
       filteredPreparations: [],
-      filteredTypes: [],
-      filteredAmounts: [],
-      type: '',
-      amount: '',
+      types: [],
+      amounts: [],
+      type: ' ',
+      amount: ' ',
     }
   },
   components: {
@@ -45,44 +45,36 @@ export default {
     PreparationForm
   },
   methods: {
+    filterPreps(type = this.type, amount = this.amount) {
+      
+      this.filteredPreparations = this.preparations
+        .filter(el => el.name.indexOf(type) > -1 ? true : false)
+        .filter(el => el.amount.indexOf(amount) > -1 ? true : false)
+    },
     setType(type) {
-
-      //сука тупой говнокод вонючий, какое же говно я пишу
-      this.type = type;
-
-      type === 'all'
-      ? this.filteredPreparations = this.preparations
-          .filter(el => el.amount.indexOf(this.amount) > -1 ? true : false)
-      : this.filteredPreparations = this.preparations
-          .filter(el => el.name.indexOf(this.type) > -1 ? true : false)
-          .filter(el => el.amount.indexOf(this.amount) > -1 ? true : false)
+      this.type = type
+      this.filterPreps();
     },
     setAmount(amount) {
-      this.amount = amount;
-
-      amount === 'all'
-      ? this.filteredPreparations = this.preparations
-          .filter(el => el.name.indexOf(this.type) > -1 ? true : false)
-      : this.filteredPreparations = this.preparations
-          .filter(el => el.amount.indexOf(this.amount) > -1 ? true : false)
-          .filter(el => el.name.indexOf(this.type) > -1 ? true : false)
+      this.amount = amount
+      this.filterPreps();
     },
   },
   mounted() {
     this.preparations = preparations;
-    this.filteredPreparations = preparations;
+    this.filterPreps();
     
     const types = this.preparations.map(el => {
       let pos = el.name.indexOf('–')
       return el.name.slice(pos +2).trim();
     })
-    this.filteredTypes = filteredItems(types)
+    this.types = filteredItems(types)
 
     const amounts = this.preparations.map(el => {
       return parseInt(el.amount.replace(/\D+/g,""));
     })
-    this.filteredAmounts = filteredItems(amounts)
-    this.filteredAmounts = this.filteredAmounts
+    this.amounts = filteredItems(amounts)
+    this.amounts = this.amounts
       .sort((a, b) => a - b)
       .map(el => "" + el)
   }

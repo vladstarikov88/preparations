@@ -5,7 +5,7 @@
     >
       <v-radio 
         label="all" 
-        value="all"
+        value=" "
       />
       <v-radio 
         v-for="type in types"
@@ -20,7 +20,7 @@
     >
       <v-radio 
         label="all" 
-        value="all"
+        value=" "
       />
       <v-radio 
         v-for="amount in amounts"
@@ -40,8 +40,8 @@ export default {
   },
   data() {
     return {
-      radio_types: 'all',
-      radio_amount: 'all'
+      radio_types: ' ',
+      radio_amount: ' '
     }
   },
   watch: {
