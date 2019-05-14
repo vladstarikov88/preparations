@@ -5,7 +5,6 @@ const preparations = [
     lat_name: "Sol. Xycaini 2% - 2 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. Для проводниковой анестезии.",
-    additional: "",
   },
   {
     id: "2",
@@ -13,7 +12,6 @@ const preparations = [
     lat_name: "Anaesthesini 0.3",
     amount: 'D.t.d. N" 10 in tab',
     portion: "S. По 1 табл. при болях в обл. желудка (не более 4-х табл. в день).",
-    additional: "",
   },
   {
     id: "3",
@@ -21,7 +19,6 @@ const preparations = [
     lat_name: "Aethimizoli 0.1",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. 3-4 раза в день.",
-    additional: "",
   },
   {
     id: "4",
@@ -29,7 +26,6 @@ const preparations = [
     lat_name: "Sol. Aethimizoli 1% - 3 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. В/м 2 раза в день по 3 мл.",
-    additional: "",
   },
   {
     id: "5",
@@ -37,7 +33,6 @@ const preparations = [
     lat_name: "Codeini 0.015 Natrii hydrocarbonatis Terpini hydratis aa 0.25",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. при кашле.",
-    additional: "",
   },
   {
     id: "6",
@@ -45,7 +40,6 @@ const preparations = [
     lat_name: "Libexini 0.1",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 3-4 раза в день; не разжевывать.",
-    additional: "",
   },
   {
     id: "7",
@@ -53,7 +47,6 @@ const preparations = [
     lat_name: "Acetylcysteini 0.1",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 3-4 раза в день",
-    additional: "",
   },
   {
     id: "8",
@@ -61,7 +54,6 @@ const preparations = [
     lat_name: "Sol. Acecledini 3% - 10 ml",
     amount: 'D.S. Глазные капли.',
     portion: "ПО 1-2 капли в конъюктивальный мешок больного глаза",
-    additional: "",
   },
   {
     id: "9",
@@ -69,7 +61,6 @@ const preparations = [
     lat_name: "Sol. Proserini 0.05% - 1 ml",
     amount: 'D.t.d. N" 6 in ampull.',
     portion: "S. По 1 мл 1-2 раза в день подкожно.",
-    additional: "",
   },
   {
     id: "10",
@@ -77,7 +68,6 @@ const preparations = [
     lat_name: "Sol. Atropini sulfatis 0.1% - 1 ml",
     amount: 'D.t.d. N" 6 in ampull.',
     portion: "S. По 1 мл подкожно.",
-    additional: "",
   },
   {
     id: "11",
@@ -85,7 +75,6 @@ const preparations = [
     lat_name: "Sol. Atropini sulfatis 1% - 5 ml",
     amount: 'D.S. Глазные капли.',
     portion: "По 2 капли каждый час до полного расширения зрачка.",
-    additional: "",
   },
   {
     id: "12",
@@ -93,7 +82,6 @@ const preparations = [
     lat_name: "Aerosoli Troventoli 21 ml (a' 0.025)",
     amount: 'D.t.d. N" 2',
     portion: "S. По 2 вдоха 3 – 4 раза в день.",
-    additional: "",
   },
   {
     id: "13",
@@ -101,7 +89,6 @@ const preparations = [
     lat_name: "Pirenzepini 0.01",
     amount: 'D.t.d. N" 50 in ampull.',
     portion: "S. Содержимое ампулы развести в 2-х мл растворителя, вводить в/м каждые 8-12 часов.",
-    additional: "",
   },
   {
     id: "14",
@@ -109,7 +96,6 @@ const preparations = [
     lat_name: "Pirenzepini 0.025",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 таб. 2 раза в день до еды.",
-    additional: "",
   },
   {
     id: "15",
@@ -117,7 +103,6 @@ const preparations = [
     lat_name: "Famotidinui 0.02",
     amount: 'D.t.d. N" 30 in tab.',
     portion: "S. По 1 таб. 2 раза в день.",
-    additional: "",
   },
   {
     id: "16",
@@ -125,7 +110,6 @@ const preparations = [
     lat_name: "Nospani 0,04",
     amount: 'D.t.d. N" 30 in tab.',
     portion: "S. По 1 таб. 2 раза в день.",
-    additional: "",
   },
   {
     id: "17",
@@ -133,7 +117,6 @@ const preparations = [
     lat_name: "Sol. Adrenalini hydrochloridi 0.1% -1 ml",
     amount: 'D.t.d. N" 6 in ampull.',
     portion: "S. По 0.5 мл подкожно.",
-    additional: "",
   },
   {
     id: "18",
@@ -141,7 +124,6 @@ const preparations = [
     lat_name: "Isadrini 0.005",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. под язык до полного рассасывания.",
-    additional: "",
   },
   {
     id: "19",
@@ -149,7 +131,6 @@ const preparations = [
     lat_name: "Salbutamoli 0.004",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 3 раза в день.",
-    additional: "",
   },
   {
     id: "20",
@@ -157,7 +138,6 @@ const preparations = [
     lat_name: "Prazosini 0.001",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 2 раза в день, на первый прием 0.5 табл.",
-    additional: "",
   },
   {
     id: "21",
@@ -165,7 +145,6 @@ const preparations = [
     lat_name: "Anaprilini 0.04",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 3-4 раза в день, на первый прием 0.5 табл.",
-    additional: "",
   },
   {
     id: "22",
@@ -173,7 +152,6 @@ const preparations = [
     lat_name: "Sol. Anaprilini 0.25% - 1 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1-2 ml в/венно",
-    additional: "",
   },
   {
     id: "23",
@@ -181,7 +159,6 @@ const preparations = [
     lat_name: "Metoprololi 0.05",
     amount: 'D.t.d. N" 100 in tab.',
     portion: "S. По 1 табл. 2-3 раза в день",
-    additional: "",
   },
   {
     id: "24",
@@ -189,7 +166,6 @@ const preparations = [
     lat_name: "Labetaloli 0.2",
     amount: 'D.t.d. N" 30 in tab.',
     portion: "S. По 1 табл. 2 раза в день,",
-    additional: "",
   },
   {
     id: "25",
@@ -197,7 +173,6 @@ const preparations = [
     lat_name: "Sol. Labetaloli 1% - 5 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 2 мл в/венно или по 5 мл капельно в 5% р-ре глюкозы.",
-    additional: "",
   },
   {
     id: "26",
@@ -205,7 +180,6 @@ const preparations = [
     lat_name: "Tab. Reserpini 0.0001",
     amount: 'D.t.d. N" 50',
     portion: "S. По 1 табл. 2 разa в день, после еды.",
-    additional: "",
   },
   {
     id: "27",
@@ -213,7 +187,6 @@ const preparations = [
     lat_name: "Nitrazepami 0.005",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. за 30 мин. до сна.",
-    additional: "",
   },
   {
     id: "28",
@@ -221,7 +194,6 @@ const preparations = [
     lat_name: "Phenobarbitali 0.05",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. на ночь.",
-    additional: "",
   },
   {
     id: "29",
@@ -229,7 +201,6 @@ const preparations = [
     lat_name: "Sol. Morphini hydrochloridi 1%-1ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. подкожно.",
-    additional: "",
   },
   {
     id: "30",
@@ -237,7 +208,6 @@ const preparations = [
     lat_name: "Rp.: Sol. Promedoli 1%-1ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. подкожно.",
-    additional: "",
   },
   {
     id: "31",
@@ -245,7 +215,6 @@ const preparations = [
     lat_name: "Promedoli 0.025",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 таб. при болях.",
-    additional: "",
   },
   {
     id: "32",
@@ -253,7 +222,6 @@ const preparations = [
     lat_name: "Pentazocini hydrochloridi 0.05",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 таб. при болях, до еды",
-    additional: "",
   },
   {
     id: "33",
@@ -261,7 +229,6 @@ const preparations = [
     lat_name: "Acidi acetylsalicylici 0.5",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. 3 раза в день, после еды, запить обильно водой.",
-    additional: "",
   },
   {
     id: "34",
@@ -269,7 +236,6 @@ const preparations = [
     lat_name: "Analgini 0.5",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. при головной боли.",
-    additional: "",
   },
   {
     id: "35",
@@ -277,7 +243,6 @@ const preparations = [
     lat_name: "Paracetamoli 0,5",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. при головной боли.",
-    additional: "",
   },
   {
     id: "36",
@@ -285,7 +250,6 @@ const preparations = [
     lat_name: "Ortopheni 0,025",
     amount: 'D.t.d. N" 30 in tab.',
     portion: "S. По 1 табл. при головной боли.",
-    additional: "",
   },
   {
     id: "37",
@@ -293,7 +257,6 @@ const preparations = [
     lat_name: "Carbamazepini 0.2",
     amount: 'D.t.d. N" 100 in tab.',
     portion: "S. По 1 табл. 2 раза в день во время еды.",
-    additional: "",
   },
   {
     id: "38",
@@ -301,15 +264,13 @@ const preparations = [
     lat_name: "Natrii valproatis 0.3",
     amount: 'D.t.d. N" 50 in caps. gel.',
     portion: "S. По 1 капс. 2 раза в день",
-    additional: "",
   },
   {
     id: "39",
     name: "Наком – таблетки",
     lat_name: "Tab. “Nakom” № 100",
-    amount: '',
+    amount: ' ',
     portion: "S. По 2 табл. 2 раза в сутки",
-    additional: "",
   },
   {
     id: "40",
@@ -317,7 +278,6 @@ const preparations = [
     lat_name: "Midantani 0.1",
     amount: 'D.t.d. N" 100 in tab. obd.',
     portion: "S. По 1 табл. 2-3 раза в день",
-    additional: "",
   },
   {
     id: "41",
@@ -325,7 +285,6 @@ const preparations = [
     lat_name: "Dr. Aminazini 0.025",
     amount: 'D.t.d. N" 50',
     portion: "S. По 1 табл. 3раза в день после еды.",
-    additional: "",
   },
   {
     id: "42",
@@ -333,7 +292,6 @@ const preparations = [
     lat_name: "Sol. Aminazini 2.5% - 1 ml",
     amount: 'D.t.d. N" 6 in ampull.',
     portion: "S. В/мышечно, предварительно развести в 5 мл 0.5% растворе новокаина.",
-    additional: "",
   },
   {
     id: "43",
@@ -341,7 +299,6 @@ const preparations = [
     lat_name: "Tab. Haloperidoli 0.0015",
     amount: 'D.t.d. N" 50',
     portion: "S. По 1 табл. 3 раза в день",
-    additional: "",
   },
   {
     id: "44",
@@ -349,7 +306,6 @@ const preparations = [
     lat_name: "Sol. Haloperidoli 0.5% - 1 ml",
     amount: 'D.t.d. N" 50 in ampull.',
     portion: "S. По 0.5-1 мл. в/мышечно",
-    additional: "",
   },
   {
     id: "45",
@@ -357,7 +313,6 @@ const preparations = [
     lat_name: "Sibazoni 0.005",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 1-2 раза в день",
-    additional: "",
   },
   {
     id: "46",
@@ -365,7 +320,6 @@ const preparations = [
     lat_name: "Sol. Sibazoni 0.5% - 2 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 2 мл. в/мышечно 1-2 раза в сутки",
-    additional: "",
   },
   {
     id: "47",
@@ -373,7 +327,6 @@ const preparations = [
     lat_name: "Rp.: Mezapami 0.01",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 1-2 раза в день",
-    additional: "",
   },
   {
     id: "48",
@@ -381,7 +334,6 @@ const preparations = [
     lat_name: "Piracetami 0.4",
     amount: 'D.t.d. N" 50 in caps. gel.',
     portion: "S. По 2 капсулы 2 – 3 раза в день",
-    additional: "",
   },
   {
     id: "49",
@@ -389,7 +341,6 @@ const preparations = [
     lat_name: "Sydnocvabi 0.005",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 1 раза в день до еды утром.",
-    additional: "",
   },
   {
     id: "50",
@@ -397,7 +348,6 @@ const preparations = [
     lat_name: "Sol. Sulfocamphocaini 10% - 2 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 2 мл. 2-3 раза в день подкожно.",
-    additional: "",
   },
   {
     id: "51",
@@ -405,7 +355,6 @@ const preparations = [
     lat_name: "Tab. Digitoxini 0.0001",
     amount: 'D.t.d. N" 10',
     portion: "S. По 1 табл. 1 раза в день для поддерживающей терапии.",
-    additional: "",
   },
   {
     id: "52",
@@ -413,7 +362,6 @@ const preparations = [
     lat_name: "Sup. cum Digitoxino 0.00015",
     amount: 'D.t.d. N" 10',
     portion: "S. По 1 свече 1 раза в день",
-    additional: "",
   },
   {
     id: "53",
@@ -421,15 +369,13 @@ const preparations = [
     lat_name: "Sol. Strophanthini 0.025% - 1 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. в/венно, 1 раз в сутки. Развести в 20 мл. изотонического р-ра NaCl. Вводить медленно!",
-    additional: "",
   },
   {
     id: "54",
     name: "Валокардин – флаконы",
     lat_name: "Valocardini 20 ml",
-    amount: '',
+    amount: ' ',
     portion: "D.S. По 15-20 кап. на прием 2-3 раза в день до еды.",
-    additional: "",
   },
   {
     id: "55",
@@ -437,7 +383,6 @@ const preparations = [
     lat_name: "Verapamili 0.04",
     amount: 'D.t.d. N" 100 in tab.',
     portion: "S. По 1 табл. 3-4 раза в день после еды.",
-    additional: "",
   },
   {
     id: "56",
@@ -445,7 +390,6 @@ const preparations = [
     lat_name: "Rp.: Sol. Verapamili 0.25% - 2 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. Вводить 1-2 раз в сутки, в/венно, струйно медленно. Предварительно развести в 100 мл. изотонического р-ра NaCl.",
-    additional: "",
   },
   {
     id: "57",
@@ -453,15 +397,13 @@ const preparations = [
     lat_name: "Nitroglycerini 0.0005",
     amount: 'D.t.d. N" 40 in tab.',
     portion: "S. По 1 табл. под язык при приступе стенокардии.",
-    additional: "",
   },
   {
     id: "58",
     name: "Сустак форте – таблетки",
     lat_name: "Tab. “Sustac forte” № 25",
-    amount: '',
+    amount: ' ',
     portion: "D.S. По 1 табл. 2 раза в день",
-    additional: "",
   },
   {
     id: "59",
@@ -469,7 +411,6 @@ const preparations = [
     lat_name: "Enalaprili maleatis 0.005",
     amount: 'D.t.d. N" 24 in tab.',
     portion: "S. По 1 табл. 2 раза в день",
-    additional: "",
   },
   {
     id: "60",
@@ -477,7 +418,6 @@ const preparations = [
     lat_name: "Dichlothiazidi 0.025",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 1 раз в день, утром.",
-    additional: "",
   },
   {
     id: "61",
@@ -485,7 +425,6 @@ const preparations = [
     lat_name: "Sol. Furosemidi 1% - 2ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 2 мл. в/мышечно 1 раз в день.",
-    additional: "",
   },
   {
     id: "62",
@@ -493,7 +432,6 @@ const preparations = [
     lat_name: "Furosemidi 0.04",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 1 раз в день, утром.",
-    additional: "",
   },
   {
     id: "63",
@@ -501,7 +439,6 @@ const preparations = [
     lat_name: "Spironolactoni 0.025",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. утром.",
-    additional: "",
   },
   {
     id: "64",
@@ -509,7 +446,6 @@ const preparations = [
     lat_name: "Sol. Euphyllini 24% - 1 ml",
     amount: 'D.t.d. N" 30 in ampull.',
     portion: "S. По 1 мл. в/мышечно 1 - 2 раз в день.",
-    additional: "",
   },
   {
     id: "65",
@@ -517,7 +453,6 @@ const preparations = [
     lat_name: "Tab. Euphyllini 0.15",
     amount: 'D.t.d. N" 30 in tab.',
     portion: "S. По 1 табл. 2-3 раза в день (после еды).",
-    additional: "",
   },
   {
     id: "66",
@@ -525,7 +460,6 @@ const preparations = [
     lat_name: "Cavintoni 0.005",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 3 раза в день.",
-    additional: "",
   },
   {
     id: "67",
@@ -533,7 +467,6 @@ const preparations = [
     lat_name: "Ergometrini maleatis 0.0002",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. 2-3 раза в день.",
-    additional: "",
   },
   {
     id: "68",
@@ -541,7 +474,6 @@ const preparations = [
     lat_name: "Oxytocini 1 ml (5 ED)",
     amount: 'D.t.d. N" 5 in ampull.',
     portion: "S. Содержимое ампулы развести в 500 мл. 5% р-ра глюкозы, вводить в/венно, капельно.",
-    additional: "",
   },
   {
     id: "69",
@@ -549,7 +481,6 @@ const preparations = [
     lat_name: "Ferri lactatis 1.0",
     amount: 'D.t.d. N" 20 in caps. gel',
     portion: "S. По 1 порошку 2 раза в день после еды.",
-    additional: "",
   },
   {
     id: "70",
@@ -557,7 +488,6 @@ const preparations = [
     lat_name: "Sol. Cyancobalamini 0.05%-1 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. п/мышечно 1 раз в 2 дня.",
-    additional: "",
   },
   {
     id: "71",
@@ -565,7 +495,6 @@ const preparations = [
     lat_name: "Dipyridamoli 0.025",
     amount: 'D.t.d. N" 30 in tab.',
     portion: "S. По 1 табл. 3 раза в день натощак.",
-    additional: "",
   },
   {
     id: "72",
@@ -573,7 +502,6 @@ const preparations = [
     lat_name: "Heparini 5 ml (a'5000 ЕД)",
     amount: 'D.t.d. N" 5',
     portion: "S. В/венно по 25 000 ЕД, предварительно содержимое флакона развести в изотоническом р-ре NaCl.",
-    additional: "",
   },
   {
     id: "73",
@@ -581,31 +509,27 @@ const preparations = [
     lat_name: "Ticlopidini 0.25",
     amount: 'D.t.d. N" 30 in tab.',
     portion: "S. По 1 табл. 2 раза в день во время еды.",
-    additional: "",
   },
   {
     id: "74",
-    name: "Моносуинсули",
+    name: "Моносуинсулин – инсулин",
     lat_name: "Monosuinsulini 5 ml (a’ 40ЕД)",
     amount: 'D.t.d. N" 10',
     portion: "S. По 20 ЕД п/кожно 3 раза в день за 30 мин. до еды.",
-    additional: "",
   },
   {
     id: "75",
-    name: "Суспензия инсулина-семилонг",
+    name: "Суспензия инсулина-семилонг – суспензия",
     lat_name: "Susp. Insulini semilongi 5 ml (а’ 40 ЕД)",
     amount: 'D.t.d. N" 10',
     portion: "S. По 20 ЕД п/кожно 2 раза в сутки.",
-    additional: "",
   },
   {
     id: "76",
-    name: "Суспензия инсулина-ультралонг",
+    name: "Суспензия инсулина-ультралонг – суспензия",
     lat_name: "Susp. Insulini ultralongi 5 ml (а’ 40 ЕД)",
     amount: 'D.t.d. N" 10',
     portion: "S. По 20 ЕД п/кожно 1 раза в сутки.",
-    additional: "",
   },
   {
     id: "77",
@@ -613,7 +537,6 @@ const preparations = [
     lat_name: "Butamidi 0.5",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 2 разa в день за 1 час до еды.",
-    additional: "",
   },
   {
     id: "78",
@@ -621,7 +544,6 @@ const preparations = [
     lat_name: "Glibutidi 0.05",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 2 разa в день за 1 час до еды.",
-    additional: "",
   },
   {
     id: "79",
@@ -629,7 +551,6 @@ const preparations = [
     lat_name: "Prednisoloni 0.005",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 3 раз в день.",
-    additional: "",
   },
   {
     id: "80",
@@ -637,7 +558,6 @@ const preparations = [
     lat_name: "Methyltestosteroni 0.005",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 2-4 раза в день под язык до полного рассасывания.",
-    additional: "",
   },
   {
     id: "81",
@@ -645,7 +565,6 @@ const preparations = [
     lat_name: "Sol. Thiamini bromidi 3% - 1 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. в/мышечно глубоко.",
-    additional: "",
   },
   {
     id: "82",
@@ -653,7 +572,6 @@ const preparations = [
     lat_name: "Sol. Acidi nicotinici 1% - 1 ml",
     amount: 'D.t.d. N" 20 in ampull.',
     portion: "S. По 1 мл. в/мышечно.",
-    additional: "",
   },
   {
     id: "83",
@@ -661,7 +579,6 @@ const preparations = [
     lat_name: "Sol. Pyridoxini hydrochloridi 5% - 1 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. в/мышечно через день.",
-    additional: "",
   },
   {
     id: "84",
@@ -669,7 +586,6 @@ const preparations = [
     lat_name: "Acidi ascorbinici 0.05",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 2 раза в день",
-    additional: "",
   },
   {
     id: "85",
@@ -677,7 +593,6 @@ const preparations = [
     lat_name: "Sol. Acidi ascorbinici 5% - 1 ml",
     amount: 'D.t.d. N" 20 in ampull.',
     portion: "S. По 1 мл. в/мышечно 1 раз в день.",
-    additional: "",
   },
   {
     id: "86",
@@ -685,15 +600,13 @@ const preparations = [
     lat_name: "Dr. Retinoli acetatis 0.00114 (3300 ME)",
     amount: 'D.t.d. N" 50',
     portion: "S. По 1 драже 2 раза в день",
-    additional: "",
   },
   {
     id: "87",
     name: "Эргокальциферол – масляный раствор",
     lat_name: "Sol. Ergocalciferoli oleosae 0.0625% - 5 ml",
-    amount: '',
+    amount: ' ',
     portion: "D.S. По 1 капле ежедневно с 2-3 едель и до года (проф. рахита).",
-    additional: "",
   },
   {
     id: "88",
@@ -701,7 +614,6 @@ const preparations = [
     lat_name: "Sol. Tocopheroli acetatis oleosae 50% - 0.2",
     amount: 'D.t.d. N" 32 in caps. gel.',
     portion: "S. По 1 капс. 4 раза в день.",
-    additional: "",
   },
   {
     id: "89",
@@ -709,7 +621,6 @@ const preparations = [
     lat_name: "Lovastatini 0.1",
     amount: 'D.t.d. N" 50 in tab.',
     portion: "S. По 1 табл. 2 раза в день после еды.",
-    additional: "",
   },
   {
     id: "90",
@@ -717,7 +628,6 @@ const preparations = [
     lat_name: "Sol. Dimedroli 1% - 1 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. в/мышечно.",
-    additional: "",
   },
   {
     id: "91",
@@ -725,7 +635,6 @@ const preparations = [
     lat_name: "Dimedroli 0.01",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. 2 раза в день",
-    additional: "",
   },
   {
     id: "92",
@@ -733,7 +642,6 @@ const preparations = [
     lat_name: "Astemizoli 0.01",
     amount: 'D.t.d. N" 10 in tab.',
     portion: "S. По 1 табл. 1 раза в день",
-    additional: "",
   },
   {
     id: "93",
@@ -741,15 +649,13 @@ const preparations = [
     lat_name: "Sulfadimethoxini 0.5",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. В первый день 2 табл. 1 раза в день. В последующие дни по 1 табл. 1 раз в день.",
-    additional: "",
   },
   {
     id: "94",
     name: "Бактрим (Бисептол-480) – таблетки",
     lat_name: "Tab. “Bactrim” N 20",
-    amount: '',
+    amount: ' ',
     portion: "D.S. По 2 табл. 2 раза в день после еды.",
-    additional: "",
   },
   {
     id: "95",
@@ -757,7 +663,6 @@ const preparations = [
     lat_name: "Benzylpenicillinum-natrii 250 000 ЕД",
     amount: 'D.t.d. N" 12',
     portion: "S. Содержимое флакона развести в 2 мл. 0.5% р-ра новокаина, /мышечно 4-6 раза в день.",
-    additional: "",
   },
   {
     id: "96",
@@ -765,7 +670,6 @@ const preparations = [
     lat_name: "Bicillini-5 1 500 000 ЕД",
     amount: 'D.t.d. N" 6',
     portion: "S. Содержимое флакона развести в 2 мл. 0.25% р-ра новокаина, в/мышечно",
-    additional: "",
   },
   {
     id: "97",
@@ -773,7 +677,6 @@ const preparations = [
     lat_name: "Oxacillinum-natrii 0.25",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 4-6 раз в день за 1 час до еды или спустя 2-3 часа после еды.",
-    additional: "",
   },
   {
     id: "98",
@@ -781,7 +684,6 @@ const preparations = [
     lat_name: "Ampicillini trihydratis 0.25",
     amount: 'D.t.d. N" 24 in tab.',
     portion: "S. По 2 табл. 4 раза в день",
-    additional: "",
   },
   {
     id: "99",
@@ -789,7 +691,6 @@ const preparations = [
     lat_name: "Cefaloridini 1.0",
     amount: 'D.t.d. N" 10',
     portion: "S. Содержимое флакона развести в 2 мл. воды для инъекций, в/мышечно 2 раз в сутки.",
-    additional: "",
   },
   {
     id: "100",
@@ -797,7 +698,6 @@ const preparations = [
     lat_name: "Cefalexini 0.5",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 4 раза в день",
-    additional: "",
   },
   {
     id: "101",
@@ -805,7 +705,6 @@ const preparations = [
     lat_name: "Tetracyclini 0.25",
     amount: 'D.t.d. N" 20 in tab. obduct.',
     portion: "S. По 1 табл. 4 раза в день после еды.",
-    additional: "",
   },
   {
     id: "102",
@@ -813,7 +712,6 @@ const preparations = [
     lat_name: "Streptomycini sulfatis 0.5",
     amount: 'D.t.d. N" 20',
     portion: "S. Содержимое флакона развести в 2 мл. 0.5% р-ра новокаина, в/мышечно 1-2 раз в сутки.",
-    additional: "",
   },
   {
     id: "103",
@@ -821,7 +719,6 @@ const preparations = [
     lat_name: "Sol. Gentamycini sulfatis 4% - 1 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. в/мышечно 3 раза в день.",
-    additional: "",
   },
   {
     id: "104",
@@ -829,7 +726,6 @@ const preparations = [
     lat_name: "Nystatini 250 000 ЕД",
     amount: 'D.t.d. N" 20 in tab. obd.',
     portion: "S. По 2 табл. 4 раз в день. после еды",
-    additional: "",
   },
   {
     id: "105",
@@ -837,7 +733,6 @@ const preparations = [
     lat_name: "Lyncomycini hydrochloridi 0.25",
     amount: 'D.t.d. N" 20 in caps. gel.',
     portion: "S. По 2 капсуле 3 раза в день",
-    additional: "",
   },
   {
     id: "106",
@@ -845,7 +740,6 @@ const preparations = [
     lat_name: "Erythromycini 0.25",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1-2 табл. 4 раза в день",
-    additional: "",
   },
   {
     id: "107",
@@ -853,7 +747,6 @@ const preparations = [
     lat_name: "Ciprofloxacini 0.25",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 2 табл. 2 раза в день",
-    additional: "",
   },
   {
     id: "108",
@@ -861,7 +754,6 @@ const preparations = [
     lat_name: "Sol. Ciprofloxacini 0.2% - 50 ml",
     amount: 'D.t.d. N" 2',
     portion: "S. Вводить в/венно, предварительно развести в 100 мл изотонического раствора натрия хлорида.",
-    additional: "",
   },
   {
     id: "109",
@@ -869,7 +761,6 @@ const preparations = [
     lat_name: "Nitroxolini 0.05",
     amount: 'D.t.d. N" 50 in tab. obd.',
     portion: "S. По 2 табл. 4 раз в день.",
-    additional: "",
   },
   {
     id: "110",
@@ -877,7 +768,6 @@ const preparations = [
     lat_name: "Furazolidoni 0.05",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 4 раз в день.",
-    additional: "",
   },
   {
     id: "111",
@@ -885,7 +775,6 @@ const preparations = [
     lat_name: "Metronidazoli 0.05",
     amount: 'D.t.d. N" 20 in tab.',
     portion: "S. По 1 табл. 4 раз в день.",
-    additional: "",
   },
 ]
 
