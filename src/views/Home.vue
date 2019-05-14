@@ -12,7 +12,7 @@
     <v-layout row wrap justify-space-around fill-height>
       
       <template v-if="filteredPreparations && filteredPreparations.length">
-        <v-flex xs6 md4 lg3 grow pa-3
+        <v-flex xs12 sm6 md4 lg3 grow pa-3
           v-for="preparation in filteredPreparations"
           :key="preparation.id"
         >
