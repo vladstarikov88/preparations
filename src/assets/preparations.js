@@ -649,7 +649,7 @@ const preparations = [
   },
   {
     id: "82",
-    name: "Никотиновая кислота - ампулы",
+    name: "Никотиновая кислота – ампулы",
     lat_name: "Sol. Acidi nicotinici 1% - 1 ml",
     amount: 'D.t.d. N" 20 in ampull.',
     portion: "S. По 1 мл. в/мышечно.",
@@ -689,7 +689,7 @@ const preparations = [
   },
   {
     id: "87",
-    name: "Эргокальциферол - масляный раствор",
+    name: "Эргокальциферол – масляный раствор",
     lat_name: "Sol. Ergocalciferoli oleosae 0.0625% - 5 ml",
     amount: '',
     portion: "D.S. По 1 капле ежедневно с 2-3 едель и до года (проф. рахита).",
@@ -817,7 +817,7 @@ const preparations = [
   },
   {
     id: "103",
-    name: "Гентамицин - раствор для инъекций",
+    name: "Гентамицин – раствор для инъекций",
     lat_name: "Sol. Gentamycini sulfatis 4% - 1 ml",
     amount: 'D.t.d. N" 10 in ampull.',
     portion: "S. По 1 мл. в/мышечно 3 раза в день.",
@@ -833,7 +833,7 @@ const preparations = [
   },
   {
     id: "105",
-    name: "Линкомицин - капсулы",
+    name: "Линкомицин – капсулы",
     lat_name: "Lyncomycini hydrochloridi 0.25",
     amount: 'D.t.d. N" 20 in caps. gel.',
     portion: "S. По 2 капсуле 3 раза в день",
@@ -857,7 +857,7 @@ const preparations = [
   },
   {
     id: "108",
-    name: "Ципрофлоксацин - раствор для инъекций (флаконы)",
+    name: "Ципрофлоксацин – раствор для инъекций (флаконы)",
     lat_name: "Sol. Ciprofloxacini 0.2% - 50 ml",
     amount: 'D.t.d. N" 2',
     portion: "S. Вводить в/венно, предварительно развести в 100 мл изотонического раствора натрия хлорида.",
