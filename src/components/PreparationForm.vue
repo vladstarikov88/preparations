@@ -1,34 +1,43 @@
 <template>
   <div>
-    <v-radio-group row
-      v-model="radio_types" 
-    >
-      <v-radio 
-        label="all" 
-        value=" "
-      />
-      <v-radio 
-        v-for="type in types"
-        :key="type"
-        :label="type" 
-        :value="type"
-      />
-    </v-radio-group>
+    <div class="fitler-group">
+      <h3 class="fitler-group-title">Фильтрация по <strong>типам</strong> препаратов</h3>
+      <v-radio-group row
+        v-model="radio_types" 
+        class="radio-group"
+      >
+        <v-radio 
+          label="Все типы" 
+          value=" "
+        />
+        <v-radio 
+          v-for="type in types"
+          :key="type"
+          :label="type" 
+          :value="type"
+        />
+      </v-radio-group>
+    </div>
 
-    <v-radio-group row
-      v-model="radio_amount" 
-    >
-      <v-radio 
-        label="all" 
-        value=" "
-      />
-      <v-radio 
-        v-for="amount in amounts"
-        :key="amount"
-        :label="amount" 
-        :value="amount"
-      />
-    </v-radio-group>
+
+    <div class="fitler-group">
+      <h3 class="fitler-group-title">Фильтрация по <strong>колличеству</strong></h3>
+      <v-radio-group row
+        v-model="radio_amount" 
+        class="radio-group"
+      >
+        <v-radio 
+          label="Всё" 
+          value=" "
+        />
+        <v-radio 
+          v-for="amount in amounts"
+          :key="amount"
+          :label="amount" 
+          :value="amount"
+        />
+      </v-radio-group>
+    </div>
   </div>
 </template>
 
@@ -55,6 +64,14 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.fitler-group{
+  margin-left: 1rem;
+  &-title {
+    font-weight: normal;
+  }
+  .radio-group {
+    margin-top: 0;
+  }
+}
 </style>

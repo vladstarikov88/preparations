@@ -1,6 +1,6 @@
 <template>
   <v-toolbar app>
-    <v-toolbar-title>Препараты</v-toolbar-title>
+    <v-toolbar-title class="header-title">Препараты</v-toolbar-title>
     <v-spacer></v-spacer>
     <!-- <v-toolbar-items>
       <v-btn flat>
@@ -19,6 +19,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.header-title{
+  margin-left: 1em !important;
+}
 </style>
