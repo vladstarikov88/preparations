@@ -113,4 +113,11 @@ export default {
     cursor: pointer;
   }
 }
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 </style>

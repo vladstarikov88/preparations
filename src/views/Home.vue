@@ -37,6 +37,16 @@
       </template>
 
     </v-layout>
+
+
+    <v-snackbar
+      v-model="snackbar.visible"
+      :timeout="snackbar.timeout"
+      top='top'
+      color='info'
+    >
+      Препарат добавлен в список повторений
+    </v-snackbar>
   </div>
 </template>
 
@@ -59,6 +69,10 @@ export default {
       amounts: [],
       type: ' ',
       amount: ' ',
+      snackbar: {
+        visible: false,
+        timeout: 2000
+      }
     }
   },
   components: {
@@ -80,7 +94,8 @@ export default {
         })
     },
     addPreparationToForgotList(preparationId) {
-      this.pushPreparation(preparationId)
+      this.pushPreparation(preparationId),
+      this.snackbar.visible = true
     },
     setType(type) {
       this.type = type
