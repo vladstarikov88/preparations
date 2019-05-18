@@ -24,6 +24,8 @@
         >
           <custom-card
             :preparation="preparation"
+            :type="'common'"
+            @push-preparation="addPreparationToForgotList"
           />
         </v-flex>
       </template>
@@ -45,6 +47,8 @@ import CustomCard from '@/components/CustomCard'
 import NotFound from '@/components/NotFound'
 
 import { filteredItems } from '@/assets/helpers'
+import { mapAtions, mapActions } from 'vuex'
+
 export default {
   name: 'home',
   data() {
@@ -63,6 +67,9 @@ export default {
     NotFound
   },
   methods: {
+    ...mapActions('preparationsStore', [
+      'pushPreparation',
+    ]),
     filterPreps(type = this.type, amount = this.amount) {
       this.filteredPreparations = this.preparations
         .filter(el => el.name.indexOf(type) > -1 ? true : false)
@@ -71,6 +78,9 @@ export default {
             ? el
             : parseInt(el.amount.match(/\d+/)) === parseInt(amount)
         })
+    },
+    addPreparationToForgotList(preparationId) {
+      this.pushPreparation(preparationId)
     },
     setType(type) {
       this.type = type

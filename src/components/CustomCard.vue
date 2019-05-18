@@ -14,17 +14,35 @@
         <p class="additional-info">{{ preparation.portion }}</p>
       </div>
     </v-card-title>
-    <!-- <v-card-actions>
-      <v-btn flat color="orange">Share</v-btn>
-      <v-btn flat color="orange">Explore</v-btn>
-    </v-card-actions> -->
+
+    <v-card-actions>
+      <v-btn flat 
+        color="green"
+        @click="addToForgotList"
+        v-if="type === 'common'"
+      >Повторить</v-btn>
+      <v-btn flat 
+        color="error"
+        @click="removeFromForgotList"
+        v-if="type === 'forgotList'"
+      >Удалить</v-btn>
+    </v-card-actions>
   </v-card>
 </template>
 
 <script>
 export default {
   props: {
-    preparation: Object
+    preparation: Object,
+    type: String
+  },
+  methods: {
+    addToForgotList() {
+      this.$emit('push-preparation', this.preparation.id)
+    },
+    removeFromForgotList() {
+      this.$emit('remove-preparation', this.preparation.id)
+    }
   }
 }
 </script>

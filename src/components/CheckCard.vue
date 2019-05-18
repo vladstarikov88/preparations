@@ -1,10 +1,15 @@
 <template>
   <v-card 
     class="card"
-    :class="{hoverable: !isVisible}"
-    @click="checkMyself"
   >
     <v-card-title>
+      <div 
+        class="check-block"
+        :class="{hoverable: !isVisible}"
+        @click="checkMyself"
+      >
+
+      </div>
       <div class="title">
         <h3 class="headline">{{ preparation.name }}</h3>
         
@@ -28,6 +33,17 @@
         <p class="additional-info">???</p>
       </div>
     </v-card-title>
+
+    <v-card-actions v-if="isVisible">
+      <v-btn flat 
+        color="error"
+        @click="wrong"
+      >Я тупая</v-btn>
+      <v-btn flat 
+        color="green"
+        @click="success"
+      >Я самая умная и красивая</v-btn>
+    </v-card-actions>
   </v-card>
 </template>
 
@@ -40,17 +56,18 @@ export default {
   methods: {
     checkMyself() {
       this.$emit('check-myself')
+    },
+    success() {
+      this.$emit('success')
+    },
+    wrong() {
+      this.$emit('wrong', this.preparation.id)
     }
   }
 }
 </script>
 
 <style scoped lang="scss">
-.hoverable {
-  &:hover {
-    cursor: pointer;
-  }
-}
 .title{
   position: relative;
   min-height: 9rem;
@@ -74,8 +91,26 @@ export default {
     }
   }
 }
-
 .additional-info{
   font-size: 1.2rem;
+}
+
+/deep/ .v-card__title {
+  position: relative;
+  z-index: 1;
+}
+
+.check-block {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+}
+.hoverable {
+  &:hover {
+    cursor: pointer;
+  }
 }
 </style>
