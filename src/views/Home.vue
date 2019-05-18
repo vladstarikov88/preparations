@@ -9,7 +9,13 @@
         @set-amount="setAmount"
       />
     </v-layout>
+    <v-layout row wrap >
+      <v-flex xs12 pa-3>
+        <p>Кол-во: {{filteredPreparations.length}}</p>
+      </v-flex>
+    </v-layout>
     <v-layout row wrap justify-space-around fill-height>
+
       
       <template v-if="filteredPreparations && filteredPreparations.length">
         <v-flex xs12 sm6 md4 lg3 grow pa-3
@@ -58,10 +64,13 @@ export default {
   },
   methods: {
     filterPreps(type = this.type, amount = this.amount) {
-      
       this.filteredPreparations = this.preparations
         .filter(el => el.name.indexOf(type) > -1 ? true : false)
-        .filter(el => el.amount.indexOf(amount) > -1 ? true : false)
+        .filter(el => {
+          return amount === " "
+            ? el
+            : parseInt(el.amount.match(/\d+/)) === parseInt(amount)
+        })
     },
     setType(type) {
       this.type = type
